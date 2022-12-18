@@ -1,0 +1,4 @@
+repository "ProjectC@pitabreadptr@cloud"
+  path "/"
+    br "/main"
+    co "/main"
