@@ -1,4 +1,3 @@
-repository "ProjectC@pitabreadptr@cloud"
+rep "ProjectC@pitabreadptr@cloud"
   path "/"
-    smartbranch "/main" changeset "21"           
-     
+    smartbranch "/main"            
