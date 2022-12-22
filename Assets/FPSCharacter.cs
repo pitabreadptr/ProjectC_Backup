@@ -31,12 +31,12 @@ public class FPSCharacter : MonoBehaviour {
 
     private Vector3 velocity = Vector3.zero;
 
-    void Start() {
+    void Start() 
+    {
         lookSensitivity = PlayerPrefs.GetFloat("currentSensitivity", 10);
-        if(lockCursor) {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
+        //hide the cursor when the game starts
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update() {
